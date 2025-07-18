@@ -17,15 +17,14 @@
   </PropertyGroup>
 
   <PropertyGroup Label="Version Info">
-    <AvaloniaVersion>11.0.0</AvaloniaVersion>
+    <AvaloniaVersion>11.3.2</AvaloniaVersion>
     <FluentAvaloniaUIVersion>2.0.4</FluentAvaloniaUIVersion>
     <Version>2.0.2</Version>
     <AssemblyVersion>2.0.2.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia.Controls.ItemsRepeater" Version="$(AvaloniaVersion)" />
-    <PackageReference Include="FluentAvaloniaUI" Version="$(FluentAvaloniaUIVersion)" />
+    <PackageReference Include="FluentAvaloniaUI" Version="2.3.0" />
   </ItemGroup>
 
   <ItemGroup>

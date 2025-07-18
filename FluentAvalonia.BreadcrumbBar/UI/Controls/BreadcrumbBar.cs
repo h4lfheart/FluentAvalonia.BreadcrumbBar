@@ -246,7 +246,7 @@ public class BreadcrumbBar : TemplatedControl
             else
             {
                 var desWidth = MeasureGridDesiredWidth(Size.Infinity);
-                if (desWidth > availableSize.Width)
+                //if (desWidth > availableSize.Width)
                     ResetAndRearrangeBreadcrumbBarItems(availableSize);
             }
 
@@ -273,7 +273,7 @@ public class BreadcrumbBar : TemplatedControl
         {
             _ellipsisBreadcrumbBarItem.IsVisible = false;
             var desWidth = MeasureGridDesiredWidth(Size.Infinity);
-            if (!(desWidth < availableSize.Width))
+            //if (!(desWidth < availableSize.Width))
             {
                 _ellipsisBreadcrumbBarItem.IsVisible = true;
                 var desWidthForOB = MeasureGridDesiredWidth(Size.Infinity);

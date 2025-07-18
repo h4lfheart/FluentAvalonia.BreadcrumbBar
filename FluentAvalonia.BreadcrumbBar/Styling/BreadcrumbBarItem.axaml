@@ -195,7 +195,7 @@
                 <Grid x:Name="PART_Grid" ColumnDefinitions="Auto,Auto">
                     <local:BreadcrumbBarItem x:Name="PART_Ellipsis" />
 
-                    <ItemsRepeater x:Name="PART_ItemsRepeater" Grid.Column="1" />
+                    <local:ItemsRepeater x:Name="PART_ItemsRepeater" Grid.Column="1" />
                 </Grid>
             </ControlTemplate>
         </Setter>
